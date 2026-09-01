@@ -1,0 +1,12 @@
+{
+  "name": "@notamai/api-client",
+  "module": "src/client.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

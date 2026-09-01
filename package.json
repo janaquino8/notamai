@@ -1,0 +1,27 @@
+{
+  "name": "notamai",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janaquino8/notamai.git"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start:api": "bun --filter api start",
+    "start:web": "bun --filter web start",
+    "start:mobile": "bun --filter mobile start",
+    "dev:api": "bun --filter api dev",
+    "dev:web": "bun --filter web dev",
+    "dev:mobile": "bun --filter mobile dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
