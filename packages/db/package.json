@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "migrate": "bun migrate.ts"
+    "migrate": "bun migrate.ts",
+    "studio": "bunx drizzle-kit studio"
   },
   "devDependencies": {
     "@types/bun": "latest",
